@@ -1,0 +1,7 @@
+All leaf nodes has depth which has single digit in key because we suppose all char has single digit depth in homework.
+Let's assume when we build tree, "A" char has two-digits and "C" has one-digit depth in key.
+ We give their binary password and their depth which has 3-digit size. 
+Then,Our Code will suppose that "A" char has single digit (even if it has two-digit originally.) and "C" has single digit which is second digits of "A".This makes problem.
+All leaf nodes must have a single digit depth in the key
+ 
+ 
